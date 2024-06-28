@@ -1,1 +1,1 @@
-## Htop but with Rust
+### Htop bad alternative but with Rust
