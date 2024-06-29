@@ -25,7 +25,7 @@ pub fn get_processes() -> Vec<ProcessInfo> {
 
 fn parse_processes(output: &str) -> Vec<ProcessInfo> {
     let mut processes = Vec::new();
-    let lines: Vec<&str> = output.lines().skip(1).collect(); // Skip header line
+    let lines: Vec<&str> = output.lines().skip(1).collect(); 
 
     for line in lines {
         let parts: Vec<&str> = line.split_whitespace().collect();
