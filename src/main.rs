@@ -7,6 +7,6 @@ fn main() {
     loop {
         let processes = system_info::get_processes();
         system_info::display_processes(&processes);
-        thread::sleep(Duration::from_secs(1)); // Adjust as needed for refresh rate
+        thread::sleep(Duration::from_secs(1)); 
     }
 }
